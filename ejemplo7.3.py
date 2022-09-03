@@ -3,10 +3,10 @@ from tkinter import N
 
 alumnos =[]
 
-lim = int(input("Escribe el cuantos alumnos son: "))
+lim = int(input("DIgite el numero de alumnos a evaluar: "))
 
 for h in range(lim):
-    print("Ingresa el la altura ",h+1, " : ")
+    print("Digite la altura segun el numero:  ",h+1, " : ")
     altura = float(input())
     alumnos.append(altura)
 
@@ -26,8 +26,6 @@ for x in alumnos:
     elif x >= mediaDeAltura:
         altos = altos + 1
 
-print("La media de altura fué: ", mediaDeAltura)
-print("Los alumnos altos son: ", altos)
-print("Los alumnos bajos son: ", bajos)
-
-
+print("El promedio de la altura es: ", mediaDeAltura)
+print("Los altos son: ", altos)
+print("Los bajos son: ", bajos)
